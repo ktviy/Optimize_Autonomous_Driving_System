@@ -1,0 +1,29 @@
+============================================================
+SNN_T WEIGHTS
+============================================================
+Total .pth files: 10
+  Epoch 43 | Loss: 0.2737 | Val Accuracy: 80.00%
+  Epoch 37 | Loss: 0.3688 | Val Accuracy: 83.00%
+  Epoch 44 | Loss: 0.2983 | Val Accuracy: 79.00%
+  Epoch 31 | Loss: 0.3423 | Val Accuracy: 80.00%
+  Epoch 48 | Loss: 0.5321 | Val Accuracy: 82.00%
+  Epoch 43 | Loss: 0.5144 | Val Accuracy: 78.00%
+  Epoch 18 | Loss: 0.8043 | Val Accuracy: 77.00%
+  Epoch 36 | Loss: 0.5884 | Val Accuracy: 87.00%
+  Epoch 38 | Loss: 0.5602 | Val Accuracy: 86.00%
+  Epoch 43 | Loss: 0.5170 | Val Accuracy: 86.00%
+
+============================================================
+Transformer WEIGHTS
+============================================================
+Total .pth files: 10
+  Epoch 0 | Loss: 2.4384 | Val Accuracy: 3.00%
+  Epoch 1 | Loss: 1.8559 | Val Accuracy: 3.00%
+  Epoch 2 | Loss: 1.0546 | Val Accuracy: 63.00%
+  Epoch 3 | Loss: 1.0867 | Val Accuracy: 72.00%
+  Epoch 4 | Loss: 1.0755 | Val Accuracy: 64.00%
+  Epoch 5 | Loss: 1.0653 | Val Accuracy: 61.00%
+  Epoch 6 | Loss: 1.0573 | Val Accuracy: 67.00%
+  Epoch 7 | Loss: 1.0719 | Val Accuracy: 62.00%
+  Epoch 8 | Loss: 1.0629 | Val Accuracy: 61.00%
+  Epoch 9 | Loss: 1.0659 | Val Accuracy: 65.00%
