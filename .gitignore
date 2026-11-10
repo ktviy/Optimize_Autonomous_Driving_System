@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Environments
+venv/
+.venv/
+env/
+.env
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Pipeline run outputs (regenerate with run_pipeline.py)
+runs/
+
+# Large generated data (regenerate, do not commit)
+Pseudo_Lidar/results/sdn_kitti_train_set/depth_maps/
+Pseudo_Lidar/results/sdn_kitti_train_set/tensorboardx/
+Pseudo_Lidar/results/processed_25d/
+Motion_Planning/outputs/all_frames/
+
+# Scratch logs
+tmp_*.log

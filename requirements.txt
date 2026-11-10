@@ -1,0 +1,30 @@
+# FSD pipeline: KITTI stereo -> SDN depth -> 2.5D BEV -> occupancy -> motion prediction
+#
+# 1) Install PyTorch FIRST with the CUDA build that matches the lab GPU driver
+#    (check the driver with `nvidia-smi`), e.g. for CUDA 12.1:
+#      pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#    The original training env was torch 2.5.1+cu121. Tested here with 2.5-2.10 (CPU).
+# 2) Then: pip install -r requirements.txt
+#
+# Tested versions in brackets.
+
+torch>=2.0            # [2.5.1, 2.10.0]
+torchvision           # [0.25.0]
+numpy>=1.23           # [2.3.5]
+scipy>=1.8            # [1.17.0]  (scipy.misc.imread is no longer used)
+pillow>=8.0           # [12.0.0]
+matplotlib>=3.5       # [3.10.8]
+opencv-python         # [5.0]  (headless build also fine on a server)
+tqdm
+configargparse>=1.0   # Pseudo_Lidar/src/main.py
+tensorboardX          # Pseudo_Lidar logger
+tensorboard           # required by spikingjelly 0.0.0.0.14 at import time
+timm>=0.9             # [1.0.31] Spikformer / Transformer blocks
+psutil                # RAM measurement in Pseudo_Lidar
+imageio               # SNN_T visualisation
+scikit-learn          # Pseudo_Lidar/src/preprocess/kitti_process_RANSAC.py only
+
+# SpikingJelly: the checkpoints were made with 0.0.0.0.14 (clock_driven API).
+# SNN_T/model/sj_compat.py also supports spikingjelly 2.x (activation_based API);
+# features are bit-identical under both. Pin the original to be safe:
+spikingjelly==0.0.0.0.14
