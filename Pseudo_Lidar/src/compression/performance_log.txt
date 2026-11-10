@@ -1,0 +1,21 @@
+
+--- Log Date: 2026-06-30 10:32:59 ---
+| Model Variant | RAM Footprint (MB) | Savings (%) |
+|:---|:---|:---|
+| Dense 3D | 5.30 | 0% |
+| 2.5D Optimized | 0.92 | 82.7% |
+------------------------------
+
+--- Log Date: 2026-06-30 12:23:17 ---
+| Model Variant | RAM Footprint (MB) | Savings (%) |
+|:---|:---|:---|
+| Dense 3D | 5.30 | 0% |
+| 2.5D Optimized | 0.92 | 82.7% |
+------------------------------
+
+--- Log Date: 2026-07-01 10:02:46 ---
+| Model Variant | RAM Footprint (MB) | Savings (%) |
+|:---|:---|:---|
+| Dense 3D | 5.30 | 0% |
+| 2.5D Optimized | 0.92 | 82.7% |
+------------------------------
